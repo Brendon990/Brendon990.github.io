@@ -14,3 +14,13 @@
         font-family: Helvetica, sans-serif;
         color: white;
 }
+
+.big-text{
+    font-family: cursive, monospace;
+        font-size: 650%;
+        text-shadow:
+            -4px -4px 0 black,
+            4px -4px 0 black,
+            -2px  2px 0 black,
+            2px  2px 0 black;
+}
