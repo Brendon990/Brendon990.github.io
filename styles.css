@@ -17,10 +17,16 @@
 
 .big-text{
     font-family: cursive, monospace;
+    text-align: center;
         font-size: 650%;
+        color: antiquewhite;
         text-shadow:
-            -4px -4px 0 black,
-            4px -4px 0 black,
-            -2px  2px 0 black,
-            2px  2px 0 black;
+            -4px -4px 0 rgb(56, 56, 56),
+            4px -4px 0 rgb(56, 56, 56),
+            -2px  2px 0 rgb(56, 56, 56),
+            2px  2px 0 rgb(56, 56, 56);
+}
+
+body{
+    background-color: black;
 }
