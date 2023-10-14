@@ -1,13 +1,12 @@
 .grid-container{
     display: grid;
-    background-color: aqua;
     grid-template-columns: repeat(6, 1fr);
 }
 
 .grid-item{
-    background-color: rgb(29, 29, 29);
+    background-color: rgba(29, 29, 29, 0.712);
         text-align: center;
-        border: 3px solid rgb(77, 77, 77);
+        border: 5px solid rgb(0, 0, 0);
         padding: 4vh;
         font-size: 3vh;
         display: inline-block;
@@ -36,6 +35,66 @@ body{
 
 .selected{
     font-weight: bold;
-    background-color: rgb(100, 100, 100);
-    color: rgb(120, 120, 160);
+    font-size: x-large;
+    color: aqua;
 }
+
+.centre{
+    text-align: center;
+}
+.white-text{
+    color: antiquewhite;
+    text-shadow:
+            -2px -2px 0 rgb(56, 56, 56),
+            2px -2px 0 rgb(56, 56, 56),
+            -2px  2px 0 rgb(56, 56, 56),
+            2px  2px 0 rgb(56, 56, 56);
+}
+
+.grid-container-1{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-item-1{
+    text-align: center;
+    padding: 7.5vh;
+}
+
+.hover-zoom {
+    transition: 0.3s;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.9);
+}
+
+.space {
+    margin-top: 100px;
+}
+
+.transparent{
+    color: rgba(240, 248, 255, 0);
+}
+
+.grid-container-2{
+    display: flex;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-item-2{
+    text-align: center;
+    padding: 3vh;
+    border: 3px solid black;
+}
+
+.logo-size {
+    width: 120px;
+    height: auto;
+    margin-top: 100px;
+  }
+
+  .move-left{
+    margin-left: 20px;
+  }
